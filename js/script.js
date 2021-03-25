@@ -20,6 +20,6 @@ var app = new Vue ({
       if (this.imgIndex < 0) {
         this.imgIndex = this.images.length - 1;
       }
-    }
+    },
   }
 })
