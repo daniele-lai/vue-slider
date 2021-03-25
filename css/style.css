@@ -33,3 +33,22 @@
   font-size: 40px;
   cursor: pointer;
 }
+
+.bullets {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bullets i {
+  padding: 8px;
+  cursor: pointer;
+  color: #575656;
+}
+
+.bullets i.active {
+  color: #fff;
+}
